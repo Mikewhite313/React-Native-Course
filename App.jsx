@@ -6,6 +6,7 @@ import OnPress from './src/components/OnPress';
 import UseStateHook from './src/components/UseStateHook';
 import Props from './src/components/Props';
 import InputText from './src/components/InputText';
+import Styling from './src/components/Styling';
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
       {/* <OnPress/> */}
       {/* <UseStateHook/> */}
       {/* <Props/> */}
-      <InputText/>
+      {/* <InputText/> */}
+      <Styling/>
     </View>
   );
 };
